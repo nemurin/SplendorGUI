@@ -1,0 +1,1 @@
+{{"playerNum":0,"player":{"instanceID":-8828},"gems":[5,5,5,5,5,5]}}
