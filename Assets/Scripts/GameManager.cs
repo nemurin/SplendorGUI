@@ -30,12 +30,12 @@ public class GameManager : MonoBehaviour
         if(playerNum==0){gems[1]--;player1_gems[1]++;}
     }
     public void GreenGem(){
-        if(playerNum==0){gems[1]--;player1_gems[2]++;}
+        if(playerNum==0){gems[2]--;player1_gems[2]++;}
     }
     public void RedGem(){
-        if(playerNum==0){gems[1]--;player1_gems[3]++;}
+        if(playerNum==0){gems[3]--;player1_gems[3]++;}
     }
     public void BlackGem(){
-        if(playerNum==0){gems[1]--;player1_gems[4]++;}
+        if(playerNum==0){gems[4]--;player1_gems[4]++;}
     }
 }
