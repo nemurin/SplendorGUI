@@ -6,14 +6,15 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField]
     public int playerNum;
-    [SerializeField]
-    public Player player;
 
-    public int[] gems = new int[6]; 
+    public int[] gems = new int[6];
+
+    public int[] player1_gems = new int[6]; 
     // Start is called before the first frame update
     void Start()
     {
         gems=new int[]{5,5,5,5,5,5};
+        player1_gems=new int[]{0,0,0,0,0,0};
         playerNum=0;
     }
 
@@ -23,18 +24,18 @@ public class GameManager : MonoBehaviour
         
     }
     public void WhiteGem(){
-        if(playerNum==0){gems[0]--;player.gems[0]++;}
+        if(playerNum==0){gems[0]--;player1_gems[0]++;}
     }
     public void BlueGem(){
-        if(playerNum==0){gems[1]--;player.gems[1]++;}
+        if(playerNum==0){gems[1]--;player1_gems[1]++;}
     }
     public void GreenGem(){
-        if(playerNum==0){gems[1]--;player.gems[1]++;}
+        if(playerNum==0){gems[1]--;player1_gems[2]++;}
     }
     public void RedGem(){
-        if(playerNum==0){gems[1]--;player.gems[1]++;}
+        if(playerNum==0){gems[1]--;player1_gems[3]++;}
     }
     public void BlackGem(){
-        if(playerNum==0){gems[1]--;player.gems[1]++;}
+        if(playerNum==0){gems[1]--;player1_gems[4]++;}
     }
 }
