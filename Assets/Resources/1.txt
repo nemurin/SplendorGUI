@@ -1,1 +1,1 @@
-{{"playerNum":0,"player":{"instanceID":-8828},"gems":[5,5,5,5,5,5]}}
+{{"playerNum":0,"gems":[5,5,5,5,5,5],"player1_gems":[0,0,0,0,0,0],"lv4_card":[0,0,0,0],"imageController":{"instanceID":24560},"settingString":["5G07300","5G07300","5G07300","5G07300","1K32200","1K32200","1K32200","1K32200","0G21000","0G21000","0G21000","0G21000"]}},{System.String[]}

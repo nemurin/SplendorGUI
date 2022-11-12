@@ -7,6 +7,8 @@ public class saveDataIO : MonoBehaviour
 {
     [SerializeField]
     public GameManager gameManager;
+    [SerializeField]
+    public ImageController imageController;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +26,7 @@ public class saveDataIO : MonoBehaviour
     {
 
         // JSON形式にシリアライズ
-        var json = "{"+JsonUtility.ToJson(gameManager, false)+"}";
+        var json = "{"+JsonUtility.ToJson(gameManager, false)+"},";
 
         // JSONデータをファイルに保存
         File.WriteAllText("Assets/Resources/1.txt", json);
