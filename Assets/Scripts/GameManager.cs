@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     public int[] gems = new int[6];
 
     public int[] player1_gems = new int[6]; 
+
+    public int[] lv4_card = new int[4]; 
     // Start is called before the first frame update
     void Start()
     {
